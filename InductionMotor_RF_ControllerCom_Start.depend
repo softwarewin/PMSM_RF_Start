@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1527096725 source:c:\users\jxlllx\documents\github\rf_ctr\inductionmotor_rf_controllercom_start\main.c
+
+1527312516 source:c:\users\jxlllx\documents\github\rf_ctr\inductionmotor_rf_controllercom_start\rl_brain.c
+
+1527409147 source:c:\users\jxlllx\documents\github\rf_ctr\inductionmotor_rf_controllercom_start\src\rl_brain.cpp
+	"RL_Brain.h"
+	<iostream>
+	<algorithm>
+
+1527400038 c:\users\jxlllx\documents\github\rf_ctr\inductionmotor_rf_controllercom_start\include\rl_brain.h
+
+1527355900 source:c:\users\jxlllx\documents\github\rf_ctr\inductionmotor_rf_controllercom_start\src\main.cpp
+	"RL_Brain.h"
+	<iostream>
+	<conio.h>
+
+1527435057 source:c:\users\jxlllx\documents\github\rf_ctr\inductionmotor_rf_controllercom_start\matlabtest.cpp
+	"mex.h"
+
+1438249812 c:\program files\matlab\r2015b\extern\include\mex.h
+	"mex/libmwmex_util.hpp"
+	"matrix.h"
+	"version.h"
+	"matrix.h"
+	<stdio.h>
+
+1438249532 c:\program files\matlab\r2015b\extern\include\matrix.h
+	<stdlib.h>
+	<stddef.h>
+	"tmwtypes.h"
+	<assert.h>
+
+1438248754 c:\program files\matlab\r2015b\extern\include\tmwtypes.h
+	<limits.h>
+	<stdbool.h>
+	<float.h>
+	<stddef.h>
+
+1438249532 c:\users\jxlllx\documents\github\rf_ctr\inductionmotor_rf_controllercom_start\matrix.h
+	<stdlib.h>
+	<stddef.h>
+	"tmwtypes.h"
+	<assert.h>
+
+1438249812 c:\users\jxlllx\documents\github\rf_ctr\inductionmotor_rf_controllercom_start\mex.h
+	"mex/libmwmex_util.hpp"
+	"matrix.h"
+	"version.h"
+	"matrix.h"
+	<stdio.h>
+
+1527435057 source:c:\users\jxlllx\documents\github\pmsm_rf_start\matlabtest.cpp
+	"mex.h"
+
+1527355900 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\main.cpp
+	"RL_Brain.h"
+	<iostream>
+	<conio.h>
+
+1527409147 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\rl_brain.cpp
+	"RL_Brain.h"
+	<iostream>
+	<algorithm>
+
+1527527987 source:c:\users\jxlllx\documents\github\pmsm_rf_start\sfunctionallocatetest.cpp
+

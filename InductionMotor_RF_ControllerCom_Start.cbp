@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="InductionMotor_RF_ControllerCom_Start" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="include\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/InductionMotor_RF_ControllerCom_Start" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Program Files/MATLAB/R2015b/extern/lib/win64/microsoft" />
+					<Add directory="C:/Program Files/MATLAB/R2015b/extern/include" />
+					<Add directory="C:/Program Files/MATLAB/R2015b/extern/lib/win64/mingw64" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/gpu.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libcovrt.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libemlrt.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libeng.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libfixedpoint.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmat.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmex.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwblas.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwblascompat32.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwboxfilter.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwboxfilter3.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwbwdistEDT.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwbwdistEDT_tbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwbwdistEDTFT.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwbwdistEDTFT_tbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwbwlookup.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwbwlookup_tbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwbwpackc.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwbwpackctbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwbwunpackc.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwbwunpackctbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcannythresholding_tbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcascadeClassifier.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcgir_construct.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcgxert.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcoder_connectivity_comm.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcoder_connectivity_memunit.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcoder_ParamTuningTgtAppSvc.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcoder_target_services.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcoder_ToAsyncQueueTgtAppSvc.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcoderassumptionsapp.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwcoderprofile.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwComputeMetric.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwddist.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwdetectBRISK.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwdetectFAST.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwdetectMser.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwdisparityBM.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwdisparitySGBM.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwedgethinning_tbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwextractBRISK.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwextractFreak.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwextractSurf.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwfastHessianDetector.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwfilcommon.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwforegroundDetector.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwgetnumcores.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwgrayto8.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwgrayto16.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwgrayxform.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwgrayxform_tbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwHOGDescriptor.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwimfilter.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwimlincomb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwimlincomb_tbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwimreconstruct.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwimregionalmax.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwint8touint8.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwint16touint16.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwint32touint32.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwintlut.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwintluttbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwippfilter.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwippgeotrans.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwippmedianfilter.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwippreconstruct.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwlapack.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwmatchFeatures.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwmathutil.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwmorphop_binary.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwmorphop_binary_tbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwmorphop_flat.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwmorphop_flat_tbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwmorphop_ipp.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwmorphop_nonflat.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwmorphop_nonflat_tbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwmorphop_packed.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwocvgpumex.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwocvmex.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwopticalFlowFarneback.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwopticalFlowHSCore.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwopticalFlowLKCore.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwopticalFlowLKDoGCore.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwordfilt2.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwpointTracker.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwremap.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwremaptbb.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwrtiostreamutils.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwservices.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwsigstream.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwsimulink.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwsl_AsyncioQueue.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwsl_fileio.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwsl_iofile.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwsl_log_load_blocks.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwsl_sfcn_cov_bridge.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwsl_solver_rtw.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwslexec_parallel.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwslexec_simbridge.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwtbbhist.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwuint16toint16.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwxilcomms.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwxilcomms_rtiostream.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwxilservice.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwxilutils.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmwxilutils_sl.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libmx.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/libut.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/mclbase.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/mclcommain.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/mclmcr.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/mclmcrrt.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/mclxlmain.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/ne_mli.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/ne_rtl.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/ocrutils.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/physmod_common_external_library_kernel.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/physmod_common_foundation_core_util.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/rtwcg.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/sf_runtime.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/SimulinkBlock.lib" />
+					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/sl_services.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/InductionMotor_RF_ControllerCom_Start" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/MATLAB/R2015b/extern/include" />
+			<Add directory="C:/Program Files/MATLAB/R2015b/extern/include/win64" />
+		</Compiler>
+		<Unit filename="SfunctionAllocateTest.cpp" />
+		<Unit filename="include/RL_Brain.h" />
+		<Unit filename="include/matrix.h" />
+		<Unit filename="include/mex.h" />
+		<Unit filename="matrix.h">
+			<Option virtualFolder="include/" />
+		</Unit>
+		<Unit filename="mex.h">
+			<Option virtualFolder="include/" />
+		</Unit>
+		<Unit filename="src/RL_Brain.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
