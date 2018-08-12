@@ -53,15 +53,565 @@
 1527435057 source:c:\users\jxlllx\documents\github\pmsm_rf_start\matlabtest.cpp
 	"mex.h"
 
-1527355900 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\main.cpp
+1532849274 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\main.cpp
 	"RL_Brain.h"
 	<iostream>
 	<conio.h>
+	<Eigen/Core>
+	"CtrIncludes.h"
 
-1527409147 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\rl_brain.cpp
-	"RL_Brain.h"
+1533308227 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\rl_brain.cpp
+	"../include/CtrIncludes.h"
 	<iostream>
 	<algorithm>
+	"../include/RL_Brain.h"
 
 1527527987 source:c:\users\jxlllx\documents\github\pmsm_rf_start\sfunctionallocatetest.cpp
+
+1533308212 c:\users\jxlllx\documents\github\pmsm_rf_start\include\rl_brain.h
+
+1530858754 source:c:\users\jxlllx\documents\github\pmsm_rf_start\pid.cpp
+	"PID.h"
+
+1530810302 c:\users\jxlllx\documents\github\pmsm_rf_start\pid.h
+
+1530864836 source:c:\users\jxlllx\documents\github\pmsm_rf_start\l1adaptive.cpp
+	"L1Adaptive.h"
+
+1531062600 c:\users\jxlllx\documents\github\pmsm_rf_start\l1adaptive.h
+
+1533282888 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\pid.cpp
+	"../include/PID.h"
+
+1530810302 c:\users\jxlllx\documents\github\pmsm_rf_start\include\pid.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\core
+	"src/Core/util/DisableStupidWarnings.h"
+	<math_functions.hpp>
+	<new>
+	"src/Core/util/Macros.h"
+	<complex>
+	"src/Core/util/MKL_support.h"
+	<malloc.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<emmintrin.h>
+	<xmmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<immintrin.h>
+	<altivec.h>
+	<altivec.h>
+	<arm_neon.h>
+	<vecintrin.h>
+	<vector_types.h>
+	<host_defines.h>
+	<cuda_fp16.h>
+	<omp.h>
+	<cerrno>
+	<cstddef>
+	<cstdlib>
+	<cmath>
+	<cassert>
+	<functional>
+	<iosfwd>
+	<cstring>
+	<string>
+	<limits>
+	<climits>
+	<algorithm>
+	<type_traits>
+	<iostream>
+	<intrin.h>
+	"src/Core/util/Constants.h"
+	"src/Core/util/Meta.h"
+	"src/Core/util/ForwardDeclarations.h"
+	"src/Core/util/StaticAssert.h"
+	"src/Core/util/XprHelper.h"
+	"src/Core/util/Memory.h"
+	"src/Core/NumTraits.h"
+	"src/Core/MathFunctions.h"
+	"src/Core/GenericPacketMath.h"
+	"src/Core/MathFunctionsImpl.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX512/PacketMath.h"
+	"src/Core/arch/AVX512/MathFunctions.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/AVX/TypeCasting.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/AltiVec/PacketMath.h"
+	"src/Core/arch/AltiVec/MathFunctions.h"
+	"src/Core/arch/AltiVec/Complex.h"
+	"src/Core/arch/NEON/PacketMath.h"
+	"src/Core/arch/NEON/MathFunctions.h"
+	"src/Core/arch/NEON/Complex.h"
+	"src/Core/arch/ZVector/PacketMath.h"
+	"src/Core/arch/ZVector/MathFunctions.h"
+	"src/Core/arch/ZVector/Complex.h"
+	"src/Core/arch/CUDA/Half.h"
+	"src/Core/arch/CUDA/PacketMathHalf.h"
+	"src/Core/arch/CUDA/TypeCasting.h"
+	"src/Core/arch/CUDA/PacketMath.h"
+	"src/Core/arch/CUDA/MathFunctions.h"
+	"src/Core/arch/Default/Settings.h"
+	"src/Core/functors/TernaryFunctors.h"
+	"src/Core/functors/BinaryFunctors.h"
+	"src/Core/functors/UnaryFunctors.h"
+	"src/Core/functors/NullaryFunctors.h"
+	"src/Core/functors/StlFunctors.h"
+	"src/Core/functors/AssignmentFunctors.h"
+	"src/Core/arch/CUDA/Complex.h"
+	"src/Core/IO.h"
+	"src/Core/DenseCoeffsBase.h"
+	"src/Core/DenseBase.h"
+	"src/Core/MatrixBase.h"
+	"src/Core/EigenBase.h"
+	"src/Core/Product.h"
+	"src/Core/CoreEvaluators.h"
+	"src/Core/AssignEvaluator.h"
+	"src/Core/Assign.h"
+	"src/Core/ArrayBase.h"
+	"src/Core/util/BlasUtil.h"
+	"src/Core/DenseStorage.h"
+	"src/Core/NestByValue.h"
+	"src/Core/ReturnByValue.h"
+	"src/Core/NoAlias.h"
+	"src/Core/PlainObjectBase.h"
+	"src/Core/Matrix.h"
+	"src/Core/Array.h"
+	"src/Core/CwiseTernaryOp.h"
+	"src/Core/CwiseBinaryOp.h"
+	"src/Core/CwiseUnaryOp.h"
+	"src/Core/CwiseNullaryOp.h"
+	"src/Core/CwiseUnaryView.h"
+	"src/Core/SelfCwiseBinaryOp.h"
+	"src/Core/Dot.h"
+	"src/Core/StableNorm.h"
+	"src/Core/Stride.h"
+	"src/Core/MapBase.h"
+	"src/Core/Map.h"
+	"src/Core/Ref.h"
+	"src/Core/Block.h"
+	"src/Core/VectorBlock.h"
+	"src/Core/Transpose.h"
+	"src/Core/DiagonalMatrix.h"
+	"src/Core/Diagonal.h"
+	"src/Core/DiagonalProduct.h"
+	"src/Core/Redux.h"
+	"src/Core/Visitor.h"
+	"src/Core/Fuzzy.h"
+	"src/Core/Swap.h"
+	"src/Core/CommaInitializer.h"
+	"src/Core/GeneralProduct.h"
+	"src/Core/Solve.h"
+	"src/Core/Inverse.h"
+	"src/Core/SolverBase.h"
+	"src/Core/PermutationMatrix.h"
+	"src/Core/Transpositions.h"
+	"src/Core/TriangularMatrix.h"
+	"src/Core/SelfAdjointView.h"
+	"src/Core/products/GeneralBlockPanelKernel.h"
+	"src/Core/products/Parallelizer.h"
+	"src/Core/ProductEvaluators.h"
+	"src/Core/products/GeneralMatrixVector.h"
+	"src/Core/products/GeneralMatrixMatrix.h"
+	"src/Core/SolveTriangular.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular.h"
+	"src/Core/products/SelfadjointMatrixVector.h"
+	"src/Core/products/SelfadjointMatrixMatrix.h"
+	"src/Core/products/SelfadjointProduct.h"
+	"src/Core/products/SelfadjointRank2Update.h"
+	"src/Core/products/TriangularMatrixVector.h"
+	"src/Core/products/TriangularMatrixMatrix.h"
+	"src/Core/products/TriangularSolverMatrix.h"
+	"src/Core/products/TriangularSolverVector.h"
+	"src/Core/BandMatrix.h"
+	"src/Core/CoreIterators.h"
+	"src/Core/ConditionEstimator.h"
+	"src/Core/BooleanRedux.h"
+	"src/Core/Select.h"
+	"src/Core/VectorwiseOp.h"
+	"src/Core/Random.h"
+	"src/Core/Replicate.h"
+	"src/Core/Reverse.h"
+	"src/Core/ArrayWrapper.h"
+	"src/Core/products/GeneralMatrixMatrix_BLAS.h"
+	"src/Core/products/GeneralMatrixVector_BLAS.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h"
+	"src/Core/products/SelfadjointMatrixMatrix_BLAS.h"
+	"src/Core/products/SelfadjointMatrixVector_BLAS.h"
+	"src/Core/products/TriangularMatrixMatrix_BLAS.h"
+	"src/Core/products/TriangularMatrixVector_BLAS.h"
+	"src/Core/products/TriangularSolverMatrix_BLAS.h"
+	"src/Core/Assign_MKL.h"
+	"src/Core/GlobalFunctions.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\disablestupidwarnings.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\macros.h
+	<cstdlib>
+	<iostream>
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\mkl_support.h
+	<mkl.h>
+	"../../misc/blas.h"
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\misc\blas.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\constants.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\meta.h
+	<cfloat>
+	<math_constants.h>
+	<cstdint>
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\forwarddeclarations.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\staticassert.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\xprhelper.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\memory.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\numtraits.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\mathfunctions.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\genericpacketmath.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\mathfunctionsimpl.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\sse\packetmath.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\avx\packetmath.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\avx512\packetmath.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\avx512\mathfunctions.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\sse\complex.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\sse\mathfunctions.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\avx\mathfunctions.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\avx\complex.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\avx\typecasting.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\sse\typecasting.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\altivec\packetmath.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\altivec\mathfunctions.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\altivec\complex.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\neon\packetmath.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\neon\mathfunctions.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\neon\complex.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\zvector\packetmath.h
+	<stdint.h>
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\zvector\mathfunctions.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\zvector\complex.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\cuda\half.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\cuda\packetmathhalf.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\cuda\typecasting.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\cuda\packetmath.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\cuda\mathfunctions.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\default\settings.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\functors\ternaryfunctors.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\functors\binaryfunctors.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\functors\unaryfunctors.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\functors\nullaryfunctors.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\functors\stlfunctors.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\functors\assignmentfunctors.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arch\cuda\complex.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\io.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\densecoeffsbase.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\densebase.h
+	"../plugins/BlockMethods.h"
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\plugins\blockmethods.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\matrixbase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\plugins\commoncwiseunaryops.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\plugins\commoncwisebinaryops.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\plugins\matrixcwiseunaryops.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\plugins\matrixcwisebinaryops.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\eigenbase.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\product.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\coreevaluators.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\assignevaluator.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\assign.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arraybase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/ArrayCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+	"../plugins/ArrayCwiseBinaryOps.h"
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\plugins\arraycwiseunaryops.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\plugins\arraycwisebinaryops.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\blasutil.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\densestorage.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\nestbyvalue.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\returnbyvalue.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\noalias.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\plainobjectbase.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\matrix.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\array.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\cwiseternaryop.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\cwisebinaryop.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\cwiseunaryop.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\cwisenullaryop.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\cwiseunaryview.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\selfcwisebinaryop.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\dot.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\stablenorm.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\stride.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\mapbase.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\map.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\ref.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\block.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\vectorblock.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\transpose.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\diagonalmatrix.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\diagonal.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\diagonalproduct.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\redux.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\visitor.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\fuzzy.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\swap.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\commainitializer.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\generalproduct.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\solve.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\inverse.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\solverbase.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\permutationmatrix.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\transpositions.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\triangularmatrix.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\selfadjointview.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\generalblockpanelkernel.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\parallelizer.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\productevaluators.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\generalmatrixvector.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\generalmatrixmatrix.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\solvetriangular.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\generalmatrixmatrixtriangular.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\selfadjointmatrixvector.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\selfadjointmatrixmatrix.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\selfadjointproduct.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\selfadjointrank2update.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\triangularmatrixvector.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\triangularmatrixmatrix.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\triangularsolvermatrix.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\triangularsolvervector.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\bandmatrix.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\coreiterators.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\conditionestimator.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\booleanredux.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\select.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\vectorwiseop.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\random.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\replicate.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\reverse.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\arraywrapper.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\generalmatrixmatrix_blas.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\generalmatrixvector_blas.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\generalmatrixmatrixtriangular_blas.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\selfadjointmatrixmatrix_blas.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\selfadjointmatrixvector_blas.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\triangularmatrixmatrix_blas.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\triangularmatrixvector_blas.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\products\triangularsolvermatrix_blas.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\assign_mkl.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\globalfunctions.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\core\util\reenablestupidwarnings.h
+
+1533215689 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\l1adaptive.cpp
+	"../include/L1Adaptive.h"
+	"../include/CtrIncludes.h"
+
+1533305136 c:\users\jxlllx\documents\github\pmsm_rf_start\include\l1adaptive.h
+	"CtrIncludes.h"
+	"../Eigen/Core"
+	"../Eigen/LU"
+
+1533283166 c:\users\jxlllx\documents\github\pmsm_rf_start\include\ctrincludes.h
+	"../include/L1Adaptive.h"
+	"../Eigen/Core"
+	"../Eigen/LU"
+	"../include/RL_Brain.h"
+	<iostream>
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\lu
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/Kernel.h"
+	"src/misc/Image.h"
+	"src/LU/FullPivLU.h"
+	"src/LU/PartialPivLU.h"
+	"src/misc/lapacke.h"
+	"src/LU/PartialPivLU_LAPACKE.h"
+	"src/LU/Determinant.h"
+	"src/LU/InverseImpl.h"
+	"src/LU/arch/Inverse_SSE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\misc\kernel.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\misc\image.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\lu\fullpivlu.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\lu\partialpivlu.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\misc\lapacke.h
+	"lapacke_config.h"
+	<stdlib.h>
+	<complex.h>
+	<complex.h>
+	"lapacke_mangling.h"
+
+1438249790 c:\program files\matlab\r2015b\extern\include\lapacke_config.h
+	<complex>
+	<stdlib.h>
+	<stddef.h>
+	<complex.h>
+	<complex.h>
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\misc\lapacke_mangling.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\lu\partialpivlu_lapacke.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\lu\determinant.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\lu\inverseimpl.h
+
+1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\lu\arch\inverse_sse.h
 

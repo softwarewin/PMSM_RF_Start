@@ -15,6 +15,8 @@ class RL_Brain
         float Get_QtableValue(int x, int y);
         void Set_QtableValue(int x, int y, float QValue);
         float Get_ActionValueMax(int StateSeq);
+
+        float StatesDiscretion(float StateValue,float StateMin,float StateMax,float SingleStateNum);
         // hyper-parameters in the algorithm
         float epsilon;         // exploration rate
         float L_R;             // learning rate
@@ -26,6 +28,7 @@ class RL_Brain
         // processing value
         float Qpredict;
         float Qtarget;
+        float r;
 
     protected:
 

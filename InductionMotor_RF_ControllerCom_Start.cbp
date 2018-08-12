@@ -17,6 +17,8 @@
 					<Add directory="C:/Program Files/MATLAB/R2015b/extern/lib/win64/microsoft" />
 					<Add directory="C:/Program Files/MATLAB/R2015b/extern/include" />
 					<Add directory="C:/Program Files/MATLAB/R2015b/extern/lib/win64/mingw64" />
+					<Add directory="include" />
+					<Add directory="../PMSM_RF_Start" />
 				</Compiler>
 				<Linker>
 					<Add library="../../../../../../Program Files/MATLAB/R2015b/extern/lib/win64/microsoft/gpu.lib" />
@@ -151,6 +153,7 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="include" />
+					<Add directory="../PMSM_RF_Start" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -162,16 +165,18 @@
 			<Add directory="C:/Program Files/MATLAB/R2015b/extern/include" />
 			<Add directory="C:/Program Files/MATLAB/R2015b/extern/include/win64" />
 		</Compiler>
-		<Unit filename="SfunctionAllocateTest.cpp" />
+		<Unit filename="include/CtrIncludes.h" />
+		<Unit filename="include/L1Adaptive.h" />
+		<Unit filename="include/PID.h" />
 		<Unit filename="include/RL_Brain.h" />
-		<Unit filename="include/matrix.h" />
-		<Unit filename="include/mex.h" />
 		<Unit filename="matrix.h">
 			<Option virtualFolder="include/" />
 		</Unit>
 		<Unit filename="mex.h">
 			<Option virtualFolder="include/" />
 		</Unit>
+		<Unit filename="src/L1Adaptive.cpp" />
+		<Unit filename="src/PID.cpp" />
 		<Unit filename="src/RL_Brain.cpp" />
 		<Unit filename="src/main.cpp" />
 		<Extensions>

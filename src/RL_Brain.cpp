@@ -1,6 +1,7 @@
-#include "RL_Brain.h"
+#include "../include/CtrIncludes.h"
 #include<iostream>
 #include <algorithm>
+#include "../include/RL_Brain.h"
 using namespace std;
 RL_Brain::RL_Brain(float epsilon_ini, float L_R_ini, float gamma_ini,int StatesNum_ini,int ActionsNum_ini)//,float *Qtable_ini
 {
@@ -57,7 +58,16 @@ int RL_Brain::Choose_Action(int StateSeq)
     }
     return(MaxNum);
 }
+float RL_Brain::StatesDiscretion(float StateValue,float StateMin,float StateMax,float SingleStateNum)
+{
+    float Num = 0;
+    float DeltValue = 0;
+    DeltValue = (StateMax - StateMin)/SingleStateNum;
+    Num = (StateValue - StateMin)/DeltValue;
+    return(Num);
+}
 // get Q table value
+// x:state_seq y:action_seq
 float RL_Brain::Get_QtableValue(int x, int y)
 {
     return(*((RL_Brain::Qtable)+x*(RL_Brain::ActionsNum)+y));
@@ -76,3 +86,4 @@ float RL_Brain::Get_ActionValueMax(int StateSeq)
     }
     return(ValueMax);
 }
+
