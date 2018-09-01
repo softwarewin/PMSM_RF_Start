@@ -60,7 +60,7 @@
 	<Eigen/Core>
 	"CtrIncludes.h"
 
-1533308227 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\rl_brain.cpp
+1533309719 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\rl_brain.cpp
 	"../include/CtrIncludes.h"
 	<iostream>
 	<algorithm>
@@ -614,4 +614,18 @@
 1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\lu\inverseimpl.h
 
 1497510620 c:\users\jxlllx\documents\github\pmsm_rf_start\eigen\src\lu\arch\inverse_sse.h
+
+1535802495 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\mpc.cpp
+	"../include/MPC.h"
+	"../include/CtrIncludes.h"
+
+1535802483 c:\users\jxlllx\documents\github\pmsm_rf_start\include\mpc.h
+	"CtrIncludes.h"
+	"../Eigen/Core"
+	"../Eigen/LU"
+
+1535791131 source:c:\users\jxlllx\documents\github\pmsm_rf_start\src\smo.cpp
+	"SMO.h"
+
+1535802560 c:\users\jxlllx\documents\github\pmsm_rf_start\include\smo.h
 

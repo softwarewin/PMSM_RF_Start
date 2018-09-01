@@ -167,6 +167,7 @@
 		</Compiler>
 		<Unit filename="include/CtrIncludes.h" />
 		<Unit filename="include/L1Adaptive.h" />
+		<Unit filename="include/MPC.h" />
 		<Unit filename="include/PID.h" />
 		<Unit filename="include/RL_Brain.h" />
 		<Unit filename="matrix.h">
@@ -176,6 +177,7 @@
 			<Option virtualFolder="include/" />
 		</Unit>
 		<Unit filename="src/L1Adaptive.cpp" />
+		<Unit filename="src/MPC.cpp" />
 		<Unit filename="src/PID.cpp" />
 		<Unit filename="src/RL_Brain.cpp" />
 		<Unit filename="src/main.cpp" />
